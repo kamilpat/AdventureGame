@@ -1896,18 +1896,6 @@ MonoBehaviour:
   description: pouabv
   satisfied: 0
   hash: 0
---- !u!114 &1521988559 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6079310958959585504, guid: fd15ab2f153194b499f9683700d1695f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1282433138338263179}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30c14657f408b4d47b443e9c5bb095c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1536750085
 GameObject:
   m_ObjectHideFlags: 0
@@ -2464,18 +2452,7 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1521988559}
-          m_MethodName: OnGroundClick
-          m_Mode: 0
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
@@ -2508,72 +2485,3 @@ MonoBehaviour:
   description: HasCoffee
   satisfied: 1
   hash: -1486269948
---- !u!1001 &1282433138338263179
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3391818874650365492, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391818874650858004, guid: fd15ab2f153194b499f9683700d1695f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fd15ab2f153194b499f9683700d1695f, type: 3}
